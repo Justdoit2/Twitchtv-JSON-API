@@ -33,9 +33,9 @@ $(document).ready(function() {
     RobotCaleb:
       "https://static-cdn.jtvnw.net/jtv_user_pictures/robotcaleb-profile_image-9422645f2f0f093c-300x300.png"
   };
-  //for each does not place them in order
+
   usernames.forEach(function(name) {
-    //url='https://wind-bow.gomix.me/twitch-api/streams/'+ name+'?callback=?';
+   
     function makeUrl(type,k) { //if seperate function for streams and channels, will be out fo order
       return 'https://wind-bow.gomix.me/twitch-api/' + type + '/' + name + '?callback=?';
       
@@ -85,7 +85,7 @@ $(document).ready(function() {
         
      } 
          else if (status="online"){
-           //console.log(data.status);
+           
         
          var b= "<div class='row f online black'>" +
             "<div class='col-sm-4'>" +
@@ -107,8 +107,7 @@ $(document).ready(function() {
            online.push(b);
            
            $("#followerId").append(b);
-        
-        //.html just subs, but append actually keeps
+     
       }
          });
     
