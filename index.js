@@ -129,8 +129,3 @@ $(document).ready(function() {
   
 }); //document.readyfunction
 
-/* 
-Findings: need get twitch api to look at the channels, tag and post work for some
--although not live, sometimes say online for most recent videos until cannot play further
-    
-    */
