@@ -1,0 +1,54 @@
+
+.brown{
+  background-color:white;
+
+}
+h1{
+  font-family:'Oswald';
+  font-type:cursive;
+}
+img{
+  height:auto;
+  
+}
+.black{
+  border-style:solid;
+  border-color:black;
+  border-width:1px;
+}
+
+
+.offline{
+  background-color:navajowhite;
+  text-align:center;
+
+  
+}
+
+.online{
+  background-color: cornsilk;
+  text-align:center;
+}
+
+.head{
+  background-color:rosybrown; 
+  border-style:solid;
+  border-color:black;
+  
+  
+}
+
+body{
+  background-color:#5c5457;
+}
+.f{
+  font-style:italic;
+  font-family:cursive;
+}
+
+ .border {
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+  }
